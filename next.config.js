@@ -7,6 +7,6 @@ module.exports = nextConfig;
 module.exports = {
 
   experimental: {
-    images: true, // Atau sesuai dengan kebutuhan Anda
+
   },
 };
