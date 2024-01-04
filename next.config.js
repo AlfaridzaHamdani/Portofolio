@@ -1,8 +1,12 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-}
- 
-module.exports = nextConfig
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
+module.exports = {
+
+  experimental: {
+    images: true, // Atau sesuai dengan kebutuhan Anda
+  },
+};
