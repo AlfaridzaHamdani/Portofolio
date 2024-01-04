@@ -136,7 +136,7 @@ export const projects = () => {
                 type={"Featured Project"}
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title={"coming soon"}
                 img={project1}
@@ -181,7 +181,7 @@ export const projects = () => {
                 github={"/"}
                 type={"Project"}
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

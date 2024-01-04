@@ -115,6 +115,15 @@ const Articles = () => {
           />
           <ul className="grid grid-cols-2 md:grid-cols-1 gap-8 md:gap-y-16">
             <FeaturedArticle
+              title={"coming soon"}
+              summary={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo nec diam fermentum varius."
+              }
+              time={"- min read"}
+              link={"/"}
+              img={article}
+            />
+            {/* <FeaturedArticle
               title={
                 "Build A Custom Pagination Component In Reactjs From Scratch"
               }
@@ -146,18 +155,7 @@ const Articles = () => {
               time={"9 min read"}
               link={"/"}
               img={article}
-            />
-            <FeaturedArticle
-              title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
-              }
-              summary={
-                "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              }
-              time={"9 min read"}
-              link={"/"}
-              img={article}
-            />
+            /> */}
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
             All Articles
@@ -165,13 +163,13 @@ const Articles = () => {
           <ul className="w-full">
             <Article
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "coming soon"
               }
-              date={"January 22, 2022"}
+              date={"December 28, 2023"}
               link={"/"}
               img={article}
             />
-            <Article
+            {/* <Article
               title={
                 "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
               }
@@ -218,7 +216,7 @@ const Articles = () => {
               date={"January 22, 2022"}
               link={"/"}
               img={article}
-            />
+            /> */}
           </ul>
         </Layout>
       </main>
