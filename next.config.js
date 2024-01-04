@@ -3,10 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
 module.exports = {
-
   experimental: {
-
+    appDocumentPreloading: true,
+    adjustFontFallbacks: true,
   },
 };
