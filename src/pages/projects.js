@@ -128,7 +128,7 @@ export const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 summary={""}
                 link={"/"}
@@ -138,7 +138,7 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 link={"/"}
                 github={"/"}
@@ -147,7 +147,7 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 link={"/"}
                 github={"/"}
@@ -156,7 +156,7 @@ export const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 summary={""}
                 link={"/"}
@@ -166,7 +166,7 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 link={"/"}
                 github={"/"}
@@ -175,7 +175,7 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Cypto Screener Application"}
+                title={"coming soon"}
                 img={project1}
                 link={"/"}
                 github={"/"}
