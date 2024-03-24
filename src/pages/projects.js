@@ -141,47 +141,10 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"Cypto Screener Application"}
-                img={project1}
-                link={"/"}
-                github={"/"}
-                type={"Project"}
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title={"Cypto Screener Application"}
+                title={"TechSprint"}
                 img={project2}
                 link={"https://alfaridzahamdani.github.io/TechSprint/"}
                 github={"https://github.com/AlfaridzaHamdani/TechSprint"}
-                type={"Project"}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title={"Cypto Screener Application"}
-                img={project1}
-                summary={""}
-                link={"/"}
-                github={"/"}
-                type={"Featured Project"}
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title={"Cypto Screener Application"}
-                img={project1}
-                link={"/"}
-                github={"/"}
-                type={"Project"}
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title={"Cypto Screener Application"}
-                img={project1}
-                link={"/"}
-                github={"/"}
                 type={"Project"}
               />
             </div>
