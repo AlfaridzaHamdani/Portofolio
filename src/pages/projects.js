@@ -4,7 +4,8 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/portofolio-html-css.jpg";
+import project2 from "../../public/images/projects/TechSprint.jpg";
 import Image from "next/image";
 import { color, motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -44,7 +45,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="mt-2 flex items-center">
           <Link href={github} target={"_blank"} className="w-10">
             <GithubIcon />{" "}
@@ -128,17 +131,17 @@ export const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title={"coming soon"}
+                title={"HTML CSS Portofolio"}
                 img={project1}
                 summary={""}
-                link={"/"}
-                github={"/"}
+                link={"https://alfaridzahamdani.github.io/Portofolio-Basic/"}
+                github={"https://github.com/AlfaridzaHamdani/Portofolio-Basic"}
                 type={"Featured Project"}
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"coming soon"}
+                title={"Cypto Screener Application"}
                 img={project1}
                 link={"/"}
                 github={"/"}
@@ -147,16 +150,16 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"coming soon"}
-                img={project1}
-                link={"/"}
-                github={"/"}
+                title={"Cypto Screener Application"}
+                img={project2}
+                link={"https://alfaridzahamdani.github.io/TechSprint/"}
+                github={"https://github.com/AlfaridzaHamdani/TechSprint"}
                 type={"Project"}
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title={"coming soon"}
+                title={"Cypto Screener Application"}
                 img={project1}
                 summary={""}
                 link={"/"}
@@ -166,7 +169,7 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"coming soon"}
+                title={"Cypto Screener Application"}
                 img={project1}
                 link={"/"}
                 github={"/"}
@@ -175,13 +178,13 @@ export const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title={"coming soon"}
+                title={"Cypto Screener Application"}
                 img={project1}
                 link={"/"}
                 github={"/"}
                 type={"Project"}
               />
-            </div> */}
+            </div>
           </div>
         </Layout>
       </main>
