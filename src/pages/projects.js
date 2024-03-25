@@ -6,6 +6,8 @@ import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/portofolio-html-css.jpg";
 import project2 from "../../public/images/projects/TechSprint.jpg";
+import project3 from "../../public/images/projects/password-generator.jpg";
+
 import Image from "next/image";
 import { color, motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -145,6 +147,17 @@ export const projects = () => {
                 img={project2}
                 link={"https://alfaridzahamdani.github.io/TechSprint/"}
                 github={"https://github.com/AlfaridzaHamdani/TechSprint"}
+                type={"Project"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Password Generator"}
+                img={project3}
+                link={"https://alfaridzahamdani.github.io/password-generator/"}
+                github={
+                  "https://github.com/AlfaridzaHamdani/password-generator"
+                }
                 type={"Project"}
               />
             </div>
