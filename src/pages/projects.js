@@ -7,6 +7,7 @@ import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/portofolio-html-css.jpg";
 import project2 from "../../public/images/projects/TechSprint.jpg";
 import project3 from "../../public/images/projects/password-generator.jpg";
+import project4 from "../../public/images/projects/KucingCariRumah.png";
 
 import Image from "next/image";
 import { color, motion } from "framer-motion";
@@ -158,6 +159,15 @@ export const projects = () => {
                 github={
                   "https://github.com/AlfaridzaHamdani/password-generator"
                 }
+                type={"Project"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Kucing Cari Rumah"}
+                img={project4}
+                link={"https://alfaridzahamdani.github.io/KucingCariRumah/"}
+                github={"https://github.com/AlfaridzaHamdani/KucingCariRumah"}
                 type={"Project"}
               />
             </div>

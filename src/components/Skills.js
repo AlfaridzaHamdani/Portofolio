@@ -37,7 +37,6 @@ const Skills = () => {
         <Skill name="CSS" x="-19vw" y="2vw" />
         <Skill name="HTML" x="-5vw" y="-10vw" />
         <Skill name="Javascript" x="23vw" y="6vw" />
-        <Skill name="Laravel" x="0vw" y="10.5vw" />
         <Skill name="ReactJS" x="-20vw" y="-15vw" />
         <Skill name="Web Design" x="32vw" y="-5vw" />
         <Skill name="Figma" x="23vw" y="-17vw" />
