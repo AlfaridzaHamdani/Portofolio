@@ -8,6 +8,7 @@ import project1 from "../../public/images/projects/portofolio-html-css.jpg";
 import project2 from "../../public/images/projects/TechSprint.jpg";
 import project3 from "../../public/images/projects/password-generator.jpg";
 import project4 from "../../public/images/projects/KucingCariRumah.png";
+import project5 from "../../public/images/projects/HooBank.jpg";
 
 import Image from "next/image";
 import { color, motion } from "framer-motion";
@@ -168,6 +169,15 @@ export const projects = () => {
                 img={project4}
                 link={"https://alfaridzahamdani.github.io/KucingCariRumah/"}
                 github={"https://github.com/AlfaridzaHamdani/KucingCariRumah"}
+                type={"Project"}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title={"Hoo Bank"}
+                img={project5}
+                link={"https://alfaridzahamdani.github.io/project-HooBank/"}
+                github={"https://github.com/AlfaridzaHamdani/project-HooBank"}
                 type={"Project"}
               />
             </div>
