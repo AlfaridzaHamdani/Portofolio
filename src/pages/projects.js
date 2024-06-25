@@ -9,6 +9,8 @@ import project2 from "../../public/images/projects/TechSprint.jpg";
 import project3 from "../../public/images/projects/password-generator.jpg";
 import project4 from "../../public/images/projects/KucingCariRumah.png";
 import project5 from "../../public/images/projects/HooBank.jpg";
+import project6 from "../../public/images/projects/Flowy.jpg";
+import project7 from "../../public/images/projects/HarvestTable.jpg";
 
 import Image from "next/image";
 import { color, motion } from "framer-motion";
@@ -135,11 +137,11 @@ export const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title={"HTML CSS Portofolio"}
-                img={project1}
+                title={"Harvest Table"}
+                img={project7}
                 summary={""}
-                link={"https://alfaridzahamdani.github.io/Portofolio-Basic/"}
-                github={"https://github.com/AlfaridzaHamdani/Portofolio-Basic"}
+                link={"https://alfaridzahamdani.github.io/HarvestTable/"}
+                github={"https://github.com/AlfaridzaHamdani/HarvestTable"}
                 type={"Featured Project"}
               />
             </div>
@@ -178,6 +180,26 @@ export const projects = () => {
                 img={project5}
                 link={"https://alfaridzahamdani.github.io/project-HooBank/"}
                 github={"https://github.com/AlfaridzaHamdani/project-HooBank"}
+                type={"Project"}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title={"HTML CSS Portofolio"}
+                img={project1}
+                summary={""}
+                link={"https://alfaridzahamdani.github.io/Portofolio-Basic/"}
+                github={"https://github.com/AlfaridzaHamdani/Portofolio-Basic"}
+                type={"Project"}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title={"Flowy"}
+                img={project6}
+                summary={""}
+                link={"https://alfaridzahamdani.github.io/Flowy/"}
+                github={"https://github.com/AlfaridzaHamdani/Flowy"}
                 type={"Project"}
               />
             </div>
