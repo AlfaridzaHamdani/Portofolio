@@ -183,7 +183,7 @@ export const projects = () => {
                 type={"Project"}
               />
             </div>
-            <div className="col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <FeaturedProject
                 title={"HTML CSS Portofolio"}
                 img={project1}
@@ -193,7 +193,7 @@ export const projects = () => {
                 type={"Project"}
               />
             </div>
-            <div className="col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <FeaturedProject
                 title={"Flowy"}
                 img={project6}
