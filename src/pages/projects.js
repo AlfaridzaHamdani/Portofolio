@@ -184,20 +184,18 @@ export const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <FeaturedProject
+              <Project
                 title={"HTML CSS Portofolio"}
                 img={project1}
-                summary={""}
                 link={"https://alfaridzahamdani.github.io/Portofolio-Basic/"}
                 github={"https://github.com/AlfaridzaHamdani/Portofolio-Basic"}
                 type={"Project"}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <FeaturedProject
+              <Project
                 title={"Flowy"}
                 img={project6}
-                summary={""}
                 link={"https://alfaridzahamdani.github.io/Flowy/"}
                 github={"https://github.com/AlfaridzaHamdani/Flowy"}
                 type={"Project"}
