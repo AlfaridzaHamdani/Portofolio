@@ -11,6 +11,7 @@ import project4 from "../../public/images/projects/KucingCariRumah.png";
 import project5 from "../../public/images/projects/HooBank.jpg";
 import project6 from "../../public/images/projects/Flowy.jpg";
 import project7 from "../../public/images/projects/HarvestTable.jpg";
+import seku from "../../public/images/projects/Seku.jpg";
 
 import Image from "next/image";
 import { color, motion } from "framer-motion";
@@ -181,6 +182,16 @@ export const projects = () => {
                 link={"https://alfaridzahamdani.github.io/project-HooBank/"}
                 github={"https://github.com/AlfaridzaHamdani/project-HooBank"}
                 type={"Project"}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title={"Seku"}
+                img={seku}
+                summary={""}
+                link={"https://alfaridzahamdani.github.io/Seku/"}
+                github={"https://github.com/AlfaridzaHamdani/Seku"}
+                type={"Featured Project"}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
